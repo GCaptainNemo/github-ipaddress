@@ -1,5 +1,5 @@
 # ipaddress-github
-在国内上github.com常常会出现打不开界面的情况，这时需要去查询github.com的ip地址并添加到电脑hosts文件中(Windows系统下)。反复的手动查找效率太低，因此写了一个自动从[ipaddress](https://www.ipaddress.com/)
+国内上github常出现打不开界面情况，这时需要去查询github的ip地址并添加到电脑hosts文件中(Windows系统下)。反复的手动查找效率太低，因此写了一个自动从[ipaddress](https://www.ipaddress.com/)
 上爬取github网站ip地址的脚本，在不删改hosts文件中其它内容的情况下，添加github的ip地址，然后调取命令行刷新dns(ipconfig /flushdns)。
 
 ## 使用说明
