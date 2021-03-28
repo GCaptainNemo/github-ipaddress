@@ -8,7 +8,10 @@
 3. 将src/main.py中的headers变量改为自己浏览器的headers
 4. 每次登不上github.com运行代码
 
+**注意**：少数情况下，使用该方法仍登不上github.com
 
+## 参考
+1. [https://zhuanlan.zhihu.com/p/353522535](https://zhuanlan.zhihu.com/p/353522535)
 
 
 
