@@ -3,10 +3,10 @@
 上爬取github网站ip地址的脚本，并在不删改hosts文件中其它内容的情况下，添加github.com的ip地址，然后调取命令行flushdns。
 
 ## 使用说明
-1. 改动etc/hosts下的文件读写权限，改为可以读写的情况，参考[网站](https://blog.csdn.net/weixin_42664622/article/details/104310511)
+1. 改动etc/hosts下的文件读写权限，改为可以读写的模式，不然会报PermissionError错误。修改权限参考[网站](https://blog.csdn.net/weixin_42664622/article/details/104310511)
 2. 查找自己浏览器的headers，参考[网站](https://blog.csdn.net/xiezhiming1234/article/details/83592290)
 3. 将src/main.py中的headers变量改为自己浏览器的headers
-4. 运行代码即可
+4. 每次登不上github.com运行代码
 
 
 
