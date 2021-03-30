@@ -7,8 +7,12 @@
 2. 查找自己浏览器的headers，参考[网站](https://blog.csdn.net/xiezhiming1234/article/details/83592290)
 3. 将src/main.py中的headers变量改为自己浏览器的headers
 4. 每次登不上github.com运行代码
+5. src/bootstrap.py可以用如下命令打包成exe文件，用来调用main.py（需要修改main.py路径）
+    ```
+    pyinstaller bootstrap.py
+    ```
 
-**注意**：少数情况下，使用该方法仍登不上github.com
+**附**：少数情况下，使用该方法仍登不上github.com
 
 ## 参考
 1. [https://zhuanlan.zhihu.com/p/353522535](https://zhuanlan.zhihu.com/p/353522535)
