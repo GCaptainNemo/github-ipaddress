@@ -7,7 +7,7 @@
 2. 查找浏览器的headers，参考[网站](https://blog.csdn.net/xiezhiming1234/article/details/83592290)
 3. 将src/main.py中的headers变量改为自己浏览器的headers
 4. 登不上github.com运行代码main.py
-5. src/bootstrap.py可以用如下命令打包成exe文件，用来调用main.py（需要修改main.py路径）
+5. src/bootstrap.py可以用如下命令打包成exe文件，用来调用main.py(需要改bootstrap.py脚本中的路径)。之所以这样设计，是为了考虑后续的扩展性。
     ```
     pyinstaller bootstrap.py
     ```
